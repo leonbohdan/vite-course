@@ -9,7 +9,7 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": false,
-    "lib": ["esnext", "", "ESNext"]
+    "lib": ["esnext", "ESNext"]
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsc", "src/**/*.vue"]
 }
