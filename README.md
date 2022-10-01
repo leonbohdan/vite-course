@@ -14,3 +14,10 @@ npx degit danielkellyio/vite-vue3-eslint-prettier [project-name]
 npm install
 npm run dev
 ```
+
+
+run for staging without env variables
+
+```
+npm run build -- --mode=staging
+```
