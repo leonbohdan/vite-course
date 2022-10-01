@@ -3,10 +3,12 @@
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import HelloWorld from "./components/HelloWorld.vue";
 import styles from "./assets/example.module.css";
+// import logo from "./assets/logo.png";
+const logo = new URL("./assets/logo.png", import.meta.url).href;
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <img alt="Vue logo" :src="logo" />
 
   <h1 :class="styles.example">CSS Modules</h1>
 
