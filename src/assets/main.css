@@ -1,9 +1,1 @@
-@import "typography.css";
 
-:root {
-    --primaryColor: green;
-}
-
-body {
-    background: var(--primaryColor);
-}
