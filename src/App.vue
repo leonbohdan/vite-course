@@ -6,7 +6,7 @@ import styles from "./assets/example.module.css";
 </script>
 
 <template>
-  <img alt="Vue logo" src="/logo.png" />
+  <img alt="Vue logo" src="./assets/tiny-vue-logo.png" />
 
   <h1 :class="styles.example">CSS Modules</h1>
 
